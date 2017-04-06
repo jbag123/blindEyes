@@ -5,6 +5,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  color: #000;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -12,12 +13,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*header*/
 header {
-  background: url(http://huttondesign.com/wp-content/themes/html5-reset2/_/img/portfolioBanner.jpg) no-repeat center center;
-  background-size: contain;
+  position: relative;
 }
-header aside p {
+header img{
+  width: 100%;
+}
+header p {
   font-family: 'Josefin Slab', serif;
   margin-bottom: 0px;
+  text-align: right;
+  position: absolute;
+  top: 31%;
+  left: 60%;
 }
 header nav {
   padding: .3em;
@@ -33,35 +40,34 @@ header .navbar-default div.navbar-brand:hover {
 header .navbar {
   background-color: rgba(153,153,153,.5);
   border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 header .navbar ul li {
   font-size: 1.3em;
   font-weight: normal;
 }
-header aside {
-    padding: 1em 0em 2em;
-    text-align: right;
-    font-size: 2.5em;
-    font-weight: normal;
-    color: #fff;
-}
-/*body*/
+
 aside.main {
  background-color: #999999;
  display: inline-block;
  width: 100%;
- padding: 1.9em 0;
+ padding: 1em 0;
 }
 aside.main nav ul {
   margin: 0;
 }
 aside.main nav ul li {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: bold;
+  color: #000
 }
 aside.main nav ul li span {
   color: #fff;
 }
+/*body*/
 section.portfolio {
   padding: 1.9em 0;
 }
