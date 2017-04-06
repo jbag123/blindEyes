@@ -20,8 +20,10 @@ header img{
 }
 header p {
   font-family: 'Josefin Slab', serif;
-  margin-bottom: 0px;
+  font-size: 1.8em;
+  color: #fff;
   text-align: right;
+  margin-bottom: 0px;
   position: absolute;
   top: 31%;
   left: 60%;
@@ -49,7 +51,6 @@ header .navbar ul li {
   font-size: 1.3em;
   font-weight: normal;
 }
-
 aside.main {
  background-color: #999999;
  display: inline-block;
