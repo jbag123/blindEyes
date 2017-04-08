@@ -24,9 +24,7 @@ header p {
   color: #fff;
   text-align: right;
   margin-bottom: 0px;
-  position: absolute;
-  top: 31%;
-  left: 60%;
+  padding: 0 15px;
 }
 header nav {
   padding: .3em;
@@ -50,6 +48,9 @@ header .navbar {
 header .navbar ul li {
   font-size: 1.3em;
   font-weight: normal;
+}
+header .navbar ul li:last-child a {
+	padding-right: 0px;
 }
 aside.main {
  background-color: #999999;
@@ -89,4 +90,9 @@ footer {
   display: inline-block;
   background-color: #999999;
   font-size: 6em; 
+}
+.caption {
+    width: 100%;
+    bottom: 5em;
+    position: absolute;
 }
