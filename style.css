@@ -75,9 +75,6 @@ aside.main nav ul li span {
   color: #fff;
 }
 /*body*/
-section.portfolio {
-  padding: 1.9em 0;
-}
 section.portfolio .container {
   padding: 0;
 }
@@ -111,3 +108,7 @@ footer {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
+		footer .fa fa-facebook {
+			padding-bottom: 10px;
+		}
+}
